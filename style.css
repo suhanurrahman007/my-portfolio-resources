@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ------------header section style start here------------- */
+    .container{
+        background-color:#f3e8df;
+        background-image: url("./images/developer.png") , url("./images/header_bg.png");
+        background-repeat: no-repeat , no-repeat;
+        background-position: 20px , bottom right;
+        background-size: 70px 375px , 450px 265px;
+        
+        
+    }
+
+    .nav-container{
+        display: flex;
+        justify-content: space-between;
+        /* background-color: #f4dfcf; */
+
+    }
+
+    .nav-title{
+        font-size: 19px;
+        padding: .8rem;
+        margin-left: 7rem;
+        font-weight: bolder;
+    }
+
+    .title-r{
+        color: #FD6E0A;
+    }
+
+    .nav-body ul{
+        display: flex;
+        padding: .8rem;
+        margin-right: 3rem;
+        align-items: center;
+    }
+    .nav-body ul li{
+        text-align: center;
+        margin-right: 2.5rem;
+    }
+    .nav-body ul li a{
+        color: #474747;
+        font-size: 15px;
+        transition: .4s;
+    }
+    .nav-body ul li a:hover{
+        color: #e37e36;
+        text-decoration: underline;
+        font-size: 18px;
+    }
+     .nav-body ul li button{
+        color: #474747;
+        font-size: 15px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        background: #e37e36;
+        border: none;
+        color: white;
+        font-weight: lighter;
+        transition: .4s;
+        cursor: pointer;
+    }
+    .nav-body ul li button:hover{
+        background-color: #b65b1b;
+    }
+
+    .profile-container{
+        display: flex;
+        justify-content: space-between;
+        /* outline: none; */
+
+    }
+
+    .profile-dec{
+        margin-left: 7rem;
+        padding: 3rem .8rem;
+        margin-top: 1.5rem;
+    }
+
+    .profile-dec h3{
+        font-size: 25px;
+        color: #474747;
+        margin-bottom: 8px;
+    }
+    .profile-dec h1{
+        font-size: 40px;
+        font-weight: bolder;
+        margin-bottom: 8px;
+
+    }
+    .profile-dec p{
+        text-align: justify;
+        color: #757575;
+        font-size: 16px;
+        width: 500px;
+        margin-bottom: 15px;
+
+    }
+
+
+    .btn-d{
+        color:#FFF;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 5px;
+        background: #FD6E0A;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-weight: lighter;
+        transition: .4s;
+    }
+    .btn-d:hover{
+        background-color: #b65b1b;
+    }
+
+        .btn-c{
+        color:#FD6E0A ;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 5px;
+        background: #ffffffe3;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-weight: lighter;
+        transition: .4s;
+        margin-left: 10px;
+
+    }
+    .btn-c:hover{
+        background-color: #b65b1b;
+        color: #FFF;
+    }
+
+    
+    .profile-img img{
+        width: 284px;
+        height: 330px;
+        margin-right: 2rem;
+        margin-top: 5px;
+        margin-bottom: -4px;
+    }
+/* ------------header section style end here------------- */
