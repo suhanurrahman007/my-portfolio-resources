@@ -9,7 +9,7 @@
 /* ------------header section style start here------------- */
     .container{
         background-color:#f3e8df;
-        background-image: url("./images/developer.png") , url("./images/header_bg.png");
+        background-image: url("./images/developer.png") , url("./images/suhan.jpg");
         background-repeat: no-repeat , no-repeat;
         background-position: 20px , bottom right;
         background-size: 70px 375px , 450px 265px;
