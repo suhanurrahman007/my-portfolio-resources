@@ -9,7 +9,7 @@
 /* ------------header section style start here------------- */
     .container{
         background-color:#f3e8df;
-        background-image: url("./images/developer.png") , url("./images/suhan.jpg");
+        background-image: url("./images/developer.png") , url("./images/header_bg.png");
         background-repeat: no-repeat , no-repeat;
         background-position: 20px , bottom right;
         background-size: 70px 375px , 450px 265px;
@@ -149,3 +149,94 @@
         margin-bottom: -4px;
     }
 /* ------------header section style end here------------- */
+
+
+/* ------------About section style start here------------- */
+.about-container{
+    background-color: #f3e8df;
+    padding: 6rem 8rem;
+    margin: 4rem 7rem;
+    text-align: center;
+}
+
+.about-title h2{
+    color: #181818;
+    margin-bottom: 15px;
+}
+
+.about-title p{
+    color: #757575;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.about-body{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info h5{
+    color: #757575;
+    font-size: 15px;
+} 
+
+.about-info h4{
+    font-size: 16px;
+}
+/* ------------About section style end here------------- */
+
+
+/* ------------what do section style start here------------- */
+.what-do-container{
+    margin: 0 7rem 3rem 7rem;
+}
+
+.what-do-title{
+    text-align: center;
+}
+.what-do-title h1{
+    font-size: 25px;
+}
+
+.what-do-title p{
+    font-size: 15px;
+    color: #757575;
+    padding: 1rem 6rem;
+}
+
+.what-do-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+.what-do-card{
+    background-color: #f3e8df;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 15px 0 0;
+    border: none;
+    box-shadow: 0 5px 5px 0 #db8d56;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.what-do-card:hover{
+    box-shadow: 2px 9px 9px 2px #db8d56;
+
+}
+
+.what-do-card img{
+    border-radius: 5px;
+    margin-left: 5rem;
+}
+
+.what-do-card h3{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.what-do-card p{
+    text-align: justify;
+}
+/* ------------what do section style end here------------- */
