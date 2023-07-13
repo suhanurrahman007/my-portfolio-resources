@@ -240,3 +240,62 @@
     text-align: justify;
 }
 /* ------------what do section style end here------------- */
+
+
+/* ------------resume section style start here------------- */
+.resume-container{
+    background-color: #f3e8df;
+
+}
+
+.resume{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 6rem;
+    justify-content: space-around;
+}
+
+.education{
+    margin-right: 2rem;
+}
+
+.resume-title{
+    text-align: center;
+    font-size: 30px;
+    padding: 2rem;
+    color: #181818;
+}
+.education-part{
+    margin-right: 1.8rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.education-part h1{
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.education-part h3{
+    color: #474747;
+
+}
+
+.education h6{
+    font-size: 15px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.education p{
+    color: #757575;
+    font-size: 12px;
+}
+.cv-btn{
+    text-align: center;
+    padding: 2rem;
+}
+.hr{
+    color: #474747;
+}
+/* ------------resume section style end here------------- */
