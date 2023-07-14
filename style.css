@@ -299,3 +299,68 @@
     color: #474747;
 }
 /* ------------resume section style end here------------- */
+
+
+/* ------------footer section style start here------------- */
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fad2b5;
+    padding: 3rem 2rem 3rem 5rem;
+}
+
+.footer-title{
+    margin-top: 3rem;
+    padding: 0 0 0 2rem ;
+    /* margin-right: 5rem; */
+}
+.footer-title h2{
+    color: #181818;
+    margin-bottom: 10px;
+}
+.footer-title p{
+    color: #757575;
+    font-size: 15;
+    text-align: justify;
+    width: 400px;
+}
+
+.footer-body h2{
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+
+.footer-form input{
+    padding: 10px;
+    width: 480px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.footer-form textarea{
+    width: 500px;
+    height: 100px;
+}
+
+.footer-body{
+    margin-left: 11rem;
+}
+
+.footer-icon{
+    font-size: 30px;
+    color:#FD6E0A ;
+    margin-top: 10px;
+}
+
+
+.footer-icon i{
+    margin-right: 20px;
+    transition: .4s;
+}
+
+.footer-icon i:hover{
+    color: #a45b26;
+}
+
+/* ------------footer section style end here------------- */
